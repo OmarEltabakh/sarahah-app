@@ -4,8 +4,9 @@ export const fileTypes = { // based on mime type in multer
     audio: 'audio',
     document: 'document',
     application:"application",
-}
 
+}
+// based on file extentions
 export const allowedFileExtentions = {
     [fileTypes.image]: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
     [fileTypes.video]: ['mp4', 'avi', 'mkv', 'mov', 'wmv'],
