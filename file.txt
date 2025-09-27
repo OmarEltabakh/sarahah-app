@@ -18,7 +18,7 @@ git hub version control system
             - third step make your changes and commit it 
                 - add . to track all file and make it in stage area
                 - run this command git commit -m "chore: add new feature" 
-            - fourth step push your changes to github by running this command git push origin new-branch-name
+                - run this command git push origin new-branch-name
            
         
 
