@@ -164,7 +164,12 @@ export const deleteProfilePictureService = async (req,res,next)=>{
 
 }
 
+// <=========================================test==========================================>
 
+
+export const testService = async (req,res,next)=>{
+    res.status(200).json({ message: "test" })
+}
 
 
 
