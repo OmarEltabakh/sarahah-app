@@ -1,0 +1,31 @@
+git hub version control system
+
+    1. first step make sure you have an account in github
+    2. ignore you senective file from project before upload it in github
+        this file like => public key , private key , any file end with .env , node_modules  , upload folder , and any file end with pem ,  make sure you add all this file in .gitignore file
+        you can add sample.env to your github for easy to use i anthor developer work on this project  
+    3. create repository in github
+    4. on terminal in vs code run this command git init 
+    5. run this command git remote add origin https://github.com/omar-mohamed1999/sarahah-app.git 
+    6. git status to see what files are not tracked 
+    7. run this command git add . to track all file and make it in stage area
+    8. run this command git commit -m "chore: project setup and intailization" 
+    9. run this command git branch -M main 
+    10. run this command git push  origin master 
+        - how to make a new branch from master ?
+            - first step check if you have a lastest version of master branch by running this command git pull origin master
+            - second step create a new branch from master by running this command git checkout -b new-branch-name
+            - third step make your changes and commit it 
+                - add . to track all file and make it in stage area
+                - run this command git commit -m "chore: add new feature" 
+            - fourth step push your changes to github by running this command git push origin new-branch-name
+           
+        
+
+        
+        
+
+    
+
+
+
